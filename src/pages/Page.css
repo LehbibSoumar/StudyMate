@@ -1,0 +1,105 @@
+.main-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 280px);
+    height: 100%;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding-left: 4rem;
+}
+
+.main-content h2 {
+    margin: .5rem 0;
+    padding: 0 .1rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: purple;
+    padding-top: .05rem;
+}
+
+.main-content a {
+    text-decoration: none;
+}
+
+.main-content .search-add{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 0.3rem;
+}
+
+.main-content .search-add .form-search {
+    position: relative;
+    width: 500px;
+    height: 35px;
+}
+
+.main-content .search-add .form-search input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 0 40px 0 20px;
+    outline: none;
+    font-size: 1rem;
+    transition: all 300ms ease;
+}
+
+.main-content .search-add .form-search input:focus {
+    border-color: purple;
+}
+
+
+.main-content .search-add .form-search i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: purple;
+}
+
+.main-content .search-add .add-btn {
+    margin-left: 2rem;
+    font-size: 1.7rem;
+    color: purple;
+
+}
+
+
+
+
+.main-content .cours {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 2rem;
+    padding-right: 10rem;
+    padding-top: 3rem;
+}
+
+.main-content .cours > div {
+    background: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: all 300ms ease;
+}
+
+.main-content .cours > div:hover {
+    box-shadow: none;
+}
+
+.main-content .cours > div  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: purple;
+}
+
+.main-content .cours > div  p {
+    color: #333;
+}

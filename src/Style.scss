@@ -1,0 +1,97 @@
+.App {
+    .Sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 280px;
+        padding: 30px 0;
+        z-index: 99;
+        transition: 0.5s;
+        background: #f8f8f8;
+
+        .sidebar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            margin-top: 5px;
+            color: purple;
+            padding-left: 3rem;
+
+            .brand {
+                span {
+                    font-size: 25px;
+                    font-weight: 700;
+                }
+            }
+
+            i {
+                font-size: 1.5rem;
+                height: 70px;
+                width: 5px;
+            }
+        }
+
+        .sidebar-menu {
+            padding-top: 4rem;
+
+            ul {
+                li {
+                    list-style: none;
+                    margin-bottom: 10px;
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                        transition: 0.3s;
+                        padding: 12px 40px;
+                        /*border-left: 4px solid transparent;*/
+                        font-size: 1rem;
+                        color: #333;
+
+                        i {
+                            font-size: 20px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+
+            .hhhh {
+                a  {
+                    background-color: #fff;
+                    border-radius: 25px;
+                    box-shadow:  0  0  5px  rgba(194, 193, 193, 0.2);
+                    margin: 20px;
+                    padding: 5px 40px 5px;
+                }
+            }
+
+            .logout{
+                position: absolute;
+                bottom: 2.3rem;
+
+               ul {
+                 li {
+                    a  {
+                        i {
+                        font-size: 20px;
+                        margin-right: 10px;
+                        }
+    
+                        span {
+                            font-size: 18px;
+                            font-weight: 500;
+                        }
+                    }
+                 }
+                }
+            }
+        
+        }
+
+
+    }
+}
